@@ -1,6 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import { HashRouter as Router } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import ParticlesBg from "particles-bg";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <Router>
+    <App />
+    <ParticlesBg type="random" bg={true} />
+  </Router>,
+  document.getElementById("root")
+);
