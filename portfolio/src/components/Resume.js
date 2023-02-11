@@ -10,7 +10,7 @@ import MongoLogo from "../assets/images/mongodb-logo.png";
 import Heroku from "../assets/images/heroku-logo.png";
 import ReactLogo from "../assets/images/React-logo.png";
 import "../App.css";
-import "../portfolio.css";
+// import "../portfolio.css";
 
 const Resume = () => {
   return (
