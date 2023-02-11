@@ -5,9 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-// import ContactForm from '../components/contact-form';
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-// import "../App.css";
+import "../App.css";
 
 export default function Contact() {
   return (
