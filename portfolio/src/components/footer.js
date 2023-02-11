@@ -29,7 +29,7 @@ function Footer() {
           Download Resume
         </a>{" "}
         |{" "}
-        <a href="https://coolors.co/palette/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf">
+        <a href="https://coolors.co/palette/2d3142-4f5d75-bfc0c0-ffffff-ef8354">
           Color Palette
         </a>{" "}
         | made with{" "}
