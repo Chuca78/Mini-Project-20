@@ -1,46 +1,46 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import portfolio from "../data";
 import ProjectCards from "../components/project";
 import "../App.css";
-// import "../portfolio.css";
 
 const Portfolio = () => {
   return (
-    <React.Fragment>
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <div className="card">
-              <div className="card-body">
-                <div className="title">
-                  <h1
-                    style={{
-                      justifyContent: "center",
-                      textAlign: "center",
-                    }}
-                  >
-                    Portfolio
-                  </h1>
-                  <h4
-                    style={{
-                      justifyContent: "center",
-                      textAlign: "center",
-                    }}
-                  >
-                    <img
-                      src="https://img.icons8.com/color/48/000000/github--v1.png"
-                      alt="Repository"
-                    />{" "}
-                    Github Repository Link | Deployed Webpage Link
-                    <img
-                      src="https://img.icons8.com/color/48/000000/monitor.png"
-                      alt="Deployed Site"
-                      id="project-icon"
-                    />
-                  </h4>
-                </div>
-                <div className="modal-footer" />
+    <div className="container">
+      <Jumbotron fluid>
+        <Container className="text-center">
+          <div className="p-md-5">
+            <h1>Portfolio</h1>
+          </div>
+        </Container>
+      </Jumbotron>
 
+      <Container fluid className="shadow bg-light mb-5">
+        <Container className="p-4">
+          <Row>
+            <Col>
+              <Container>
+                <h4
+                  style={{
+                    justifyContent: "center",
+                    textAlign: "center",
+                  }}
+                >
+                  <img
+                    src="https://img.icons8.com/color/48/000000/github--v1.png"
+                    alt="Repository"
+                  />{" "}
+                  Github Repository Link | Deployed Webpage Link
+                  <img
+                    src="https://img.icons8.com/color/48/000000/monitor.png"
+                    alt="Deployed Site"
+                    id="project-icon"
+                  />
+                </h4>
+                <div className="modal-footer" />
                 <div className="grid-container vertical-line">
                   {portfolio.map((project) => (
                     <ProjectCards
@@ -53,12 +53,12 @@ const Portfolio = () => {
                     />
                   ))}
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </React.Fragment>
+              </Container>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+    </div>
   );
 };
 

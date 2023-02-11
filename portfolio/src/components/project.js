@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-// import '../portfolio.css';
 
 function ProjectCards(props) {
   return (
