@@ -11,7 +11,7 @@ import "../App.css";
 export default function Contact() {
   return (
     <div className="container">
-      <Jumbotron fluid className="p-5 mb-0">
+      <Jumbotron fluid>
         <Container className="text-center">
           <div className="p-md-5">
             <h1>Contact Me</h1>

@@ -19,7 +19,7 @@ const Resume = () => {
         <div className="row">
           <div className="col">
             <div className="card">
-              <div className="header">
+              <div className="title code">
                 <h3
                   style={{
                     justifyContent: "center",
