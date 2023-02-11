@@ -12,8 +12,8 @@ function ProjectCards(props) {
             </div>
 
             <div className='dep-links'>
-                <a href={props.github} target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon"/></a>
-                <a href={props.deploy} target="_blank"><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon"/></a>
+                <a href={props.github} rel="noopener"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon"/></a>
+                <a href={props.deploy} rel="noopener"><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon"/></a>
             </div>
         </div>
     );

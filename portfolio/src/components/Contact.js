@@ -35,7 +35,7 @@ export default function Contact() {
                 </p>
 
                 <p>
-                  <a href="https://github.com/Chuca78" target="_blank">
+                  <a href="https://github.com/Chuca78" rel="noopener">
                     <span className="pr-3">
                       <FaGithub />
                     </span>
@@ -45,7 +45,7 @@ export default function Contact() {
                 <p>
                   <a
                     href="https://www.linkedin.com/in/timothyfleck/"
-                    target="_blank"
+                    rel="noopener"
                   >
                     <span className="pr-3">
                       <FaLinkedin />

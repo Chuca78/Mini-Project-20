@@ -52,7 +52,7 @@ export default function Home() {
                   </div>
 
                   <div className="grid-item">
-                    <a href="https://www.utexas.edu/" target="_blank">
+                    <a href="https://www.utexas.edu/" rel="noopener">
                       <img
                         className="university-logo"
                         src={UTLogo}
@@ -71,7 +71,7 @@ export default function Home() {
                   </div>
 
                   <div className="grid-item">
-                    <a href="https://erau.edu/" target="_blank">
+                    <a href="https://erau.edu/" rel="noopener">
                       <img
                         className="university-logo"
                         src={ERAULogo}
@@ -88,7 +88,7 @@ export default function Home() {
                   </div>
 
                   <div className="grid-item">
-                    <a href="https://www.kirkwood.edu/" target="_blank">
+                    <a href="https://www.kirkwood.edu/" rel="noopener">
                       <img
                         className="university-logo"
                         src={KirkwoodLogo}
