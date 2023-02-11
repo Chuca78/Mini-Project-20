@@ -5,14 +5,14 @@ function Footer() {
   return (
     <div className="footer" id="footer">
       <div className="img-link">
-        <a href="https://github.com/Chuca78" target="_blank">
+        <a href="https://github.com/Chuca78" rel="noopener">
           <img
             src="https://img.icons8.com/color/48/000000/github-2.png"
             alt="Github"
             className="icon"
           />
         </a>
-        <a href="https://www.linkedin.com/in/timothyfleck/" target="_blank">
+        <a href="https://www.linkedin.com/in/timothyfleck/" rel="noopener">
           <img
             src="https://img.icons8.com/color/48/000000/linkedin.png"
             alt="LinkedIn"
