@@ -8,7 +8,7 @@ import ParticlesBg from "particles-bg";
 ReactDOM.render(
   <Router>
     <App />
-    <ParticlesBg type="random" bg={true} />
+    <ParticlesBg type="circle" bg={true} />
   </Router>,
   document.getElementById("root")
 );
