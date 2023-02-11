@@ -20,7 +20,12 @@ const Resume = () => {
           <div className="col">
             <div className="card">
               <div className="header">
-                <h3>
+                <h3
+                  style={{
+                    justifyContent: "center",
+                    textAlign: "center",
+                  }}
+                >
                   Download Resume:{" "}
                   <a href="https://github.com/Chuca78/React-Portfolio/blob/main/portfolio/src/assets/Timothy%20Fleck%20Resume.pdf">
                     Timothy Fleck
@@ -30,8 +35,15 @@ const Resume = () => {
 
               <div className="modal-footer" />
 
-              <div className="header">
-                <h3>Skills</h3>
+              <div className="title code">
+                <h4
+                  style={{
+                    justifyContent: "center",
+                    textAlign: "center",
+                  }}
+                >
+                  Skills
+                </h4>
               </div>
               <div className="modal-footer" />
               <div className="card-body">
@@ -73,7 +85,15 @@ const Resume = () => {
 
               <div className="card-body">
                 <div className="row">
-                  <div className="code">Technologies</div>
+                  <div
+                    className="code"
+                    style={{
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Technologies
+                  </div>
                 </div>
 
                 <div className="grid-container-skills">
@@ -159,7 +179,15 @@ const Resume = () => {
 
               <div className="card-body">
                 <div className="row">
-                  <div className="code">Quality Assurance</div>
+                  <div
+                    className="code"
+                    style={{
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Quality Assurance
+                  </div>
                 </div>
 
                 <div className="grid-container-skills">
@@ -172,6 +200,12 @@ const Resume = () => {
                   <div className="grid-item-skills">
                     <p className="p-about">Problem Solving</p>
                   </div>
+                  <div className="grid-item-skills">
+                    <p className="p-about">PDCA Cycle </p>
+                  </div>
+                  <div className="grid-item-skills">
+                    <p className="p-about">Defect Prevention</p>
+                  </div>
                 </div>
               </div>
 
@@ -179,28 +213,36 @@ const Resume = () => {
 
               <div className="card-body">
                 <div className="row">
-                  <div className="code">Project Management</div>
+                  <div
+                    className="code"
+                    style={{
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Project Management
+                  </div>
                 </div>
 
                 <div className="grid-container-skills">
                   <div className="grid-item-skills">
                     <p className="p-about">Agile Principles and Practices</p>
                   </div>
-
                   <div className="grid-item-skills">
                     <p className="p-about">
                       Project Schedule and Risk Management
                     </p>
                   </div>
-
                   <div className="grid-item-skills">
                     <p className="p-about">
                       Project Scope and Quality Management
                     </p>
                   </div>
-
                   <div className="grid-item-skills">
                     <p className="p-about">Software Project Management</p>
+                  </div>
+                  <div className="grid-item-skills">
+                    <p className="p-about">Project Life Cycle</p>
                   </div>
                 </div>
               </div>
