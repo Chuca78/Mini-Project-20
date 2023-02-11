@@ -12,8 +12,32 @@ const Portfolio = () => {
           <div className="col">
             <div className="card">
               <div className="card-body">
-                <div className="header">
-                  <h3>Portfolio</h3>
+                <div className="title">
+                  <h1
+                    style={{
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    Portfolio
+                  </h1>
+                  <h4
+                    style={{
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/github--v1.png"
+                      alt="Repository"
+                    />{" "}
+                    Github Repository Link | Deployed Webpage Link
+                    <img
+                      src="https://img.icons8.com/color/48/000000/monitor.png"
+                      alt="Deployed Site"
+                      id="project-icon"
+                    />
+                  </h4>
                 </div>
                 <div className="modal-footer" />
 
