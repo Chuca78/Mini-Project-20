@@ -18,12 +18,12 @@ const Portfolio = () => {
         </Container>
       </Jumbotron>
 
-      <Container fluid className="shadow bg-light mb-5">
+      <Container fluid className="content">
         <Container className="p-4">
           <Row>
             <Col>
               <Container>
-                <h4
+                <h3
                   style={{
                     justifyContent: "center",
                     textAlign: "center",
@@ -39,7 +39,7 @@ const Portfolio = () => {
                     alt="Deployed Site"
                     id="project-icon"
                   />
-                </h4>
+                </h3>
                 <div className="modal-footer" />
                 <div className="grid-container vertical-line">
                   {portfolio.map((project) => (

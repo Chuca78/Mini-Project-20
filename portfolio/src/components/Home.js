@@ -20,7 +20,7 @@ export default function Home() {
         </Container>
       </Jumbotron>
 
-      <Container fluid className="shadow bg-light mb-5">
+      <Container fluid className="content">
         <Container className="p-4">
           <Row>
             <Col>

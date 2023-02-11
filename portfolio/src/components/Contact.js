@@ -19,12 +19,12 @@ export default function Contact() {
         </Container>
       </Jumbotron>
 
-      <Container fluid className="shadow bg-light mb-5">
+      <Container fluid className="content">
         <Container className="p-4">
           <Row>
             <Col>
               <Container>
-                <h4 style={{ color: "#D6CCC2" }}>Contact Info</h4>
+                <h4>Contact Info</h4>
                 <p>
                   <a href="mailto:tfleck78@gmail.com">
                     <span className="pr-3">
@@ -58,7 +58,7 @@ export default function Contact() {
 
             <Col sm={12} md={6} lg={8} className="pt-sm-4 pt-lg-0">
               <Container>
-                <h4 style={{ color: "#D6CCC2" }}>Send a Message</h4>
+                <h4>Send a Message</h4>
                 <Form id="contactForm">
                   <Form.Group controlId="name">
                     <Form.Label>Your Name</Form.Label>

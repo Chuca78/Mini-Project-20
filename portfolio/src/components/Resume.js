@@ -1,8 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Logo from "../assets/images/logo.png";
 import JqueryLogo from "../assets/images/jquery-logo.png";
 import BootstrapLogo from "../assets/images/bootstrap-logo.png";
@@ -31,66 +29,62 @@ const Resume = () => {
         </Container>
       </Jumbotron>
 
-      <Container fluid className="shadow bg-light mb-5">
+      <Container fluid className="content">
         <Container className="p-4">
-          <Row>
-            <Col>
-              <Container>
-                <div className="modal-footer" />
-
-                <div className="title code">
-                  <h4
-                    style={{
-                      justifyContent: "center",
-                      textAlign: "center",
-                    }}
-                  >
-                    Skills
-                  </h4>
-                </div>
-                <div className="modal-footer" />
-                <div className="card-body">
-                  <div className="grid-container-skills">
-                    <div className="grid-item-skills">
-                      <p className="p-about">Data Structures</p>
-                    </div>
-                    <div className="grid-item-skills">
-                      <p className="p-about">UI/UX</p>
-                    </div>
-                    <div className="grid-item-skills">
-                      <p className="p-about">Object Oriented Programming</p>
-                    </div>
-                    <div className="grid-item-skills">
-                      <p className="p-about">Analytics</p>
-                    </div>
-                    <div className="grid-item-skills">
-                      <p className="p-about">Algorithms</p>
-                    </div>
-                    <div className="grid-item-skills">
-                      <p className="p-about">Innovation</p>
-                    </div>
-                    <div className="grid-item-skills">
-                      <p className="p-about">Process Improvement</p>
-                    </div>
-                    <div className="grid-item-skills">
-                      <p className="p-about">Risk Management</p>
-                    </div>
-                    <div className="grid-item-skills">
-                      <p className="p-about">Change Management</p>
-                    </div>
-                    <div className="grid-item-skills">
-                      <p className="p-about">Aviation</p>
-                    </div>
-                  </div>
-                </div>
-              </Container>
-            </Col>
-          </Row>
+          <div className="modal-footer" />
+          <div className="card-body">
+            <div className="row">
+              <h4
+                className="code"
+                style={{
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
+              >
+                Skills
+              </h4>
+            </div>
+          </div>
+          <div className="modal-footer" />
+          <div className="card-body">
+            <div className="grid-container-skills">
+              <div className="grid-item-skills">
+                <p className="p-about">Data Structures</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">UI/UX</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Object Oriented Programming</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Analytics</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Algorithms</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Innovation</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Process Improvement</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Risk Management</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Change Management</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Aviation</p>
+              </div>
+            </div>
+          </div>
 
           <div className="modal-footer" />
           <div className="card-body">
             <div className="row">
-              <div
+              <h4
                 className="code"
                 style={{
                   justifyContent: "center",
@@ -98,7 +92,7 @@ const Resume = () => {
                 }}
               >
                 Technologies
-              </div>
+              </h4>
             </div>
             <div className="grid-container-skills">
               <div className="grid-item-skills">
@@ -157,7 +151,7 @@ const Resume = () => {
           <div className="modal-footer" />
           <div className="card-body">
             <div className="row">
-              <div
+              <h4
                 className="code"
                 style={{
                   justifyContent: "center",
@@ -165,7 +159,7 @@ const Resume = () => {
                 }}
               >
                 Quality Assurance
-              </div>
+              </h4>
             </div>
             <div className="grid-container-skills">
               <div className="grid-item-skills">
@@ -189,7 +183,7 @@ const Resume = () => {
           <div className="modal-footer" />
           <div className="card-body">
             <div className="row">
-              <div
+              <h4
                 className="code"
                 style={{
                   justifyContent: "center",
@@ -197,7 +191,7 @@ const Resume = () => {
                 }}
               >
                 Project Management
-              </div>
+              </h4>
             </div>
             <div className="grid-container-skills">
               <div className="grid-item-skills">

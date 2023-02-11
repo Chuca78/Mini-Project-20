@@ -1,28 +1,42 @@
 :root {
-  /* color pallette: https://coolors.co/palette/2d3142-4f5d75-bfc0c0-ffffff-ef8354 */
+  /* color pallette: https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
 
-  --darkblue: #2d3142;
-  --lightblue: #4f5d75;
-  --light: #bfc0c0;
-  --white: #ffffff;
-  --peach: #ef8354;
-  --border: red;
+  --ash: #cad2c5;
+  --cambridge: #84a98c;
+  --hooker: #52796f;
+  --slate: #354f52;
+  --charcoal: #2f3e46;
+  --link: #00b4d8;
+  --visited: #b7e4c7;
 }
 
 h1 {
   margin: auto 30px;
   padding: 10px;
-  color: var(--darkblue);
+  color: var(--ash);
   font-weight: bold;
   font-family: monospace;
+}
+
+h2,
+h3,
+h4,
+.title-uni,
+.title-concentration,
+.edu,
+#contactForm {
+  color: var(--ash);
+  font-weight: bold;
 }
 
 .App {
   font-family: sans-serif;
 }
 
-p {
+p,
+li {
   font-family: Roboto;
+  color: var(--ash);
 }
 
 .p-about {
@@ -30,8 +44,12 @@ p {
   font-size: 20px;
 }
 
-li {
-  font-family: Roboto;
+a:link {
+  color: var(--link);
+}
+
+a:visited {
+  color: var(--visited);
 }
 
 .container {
@@ -40,6 +58,10 @@ li {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.content {
+  background-color: var(--slate);
 }
 
 .card {
@@ -58,7 +80,7 @@ li {
 .header {
   padding-top: 1rem;
   padding-left: 40px;
-  background-color: var(--darkblue);
+  background-color: var(--charcoal);
 }
 
 .title {
@@ -74,7 +96,6 @@ li {
   flex: 1 1 auto;
   min-height: 1px;
   padding-top: 1rem;
-  /* background-color: var(--peach); */
 }
 
 .modal-footer {
@@ -92,7 +113,7 @@ li {
 }
 
 .jumbotron {
-  background-color: var(--lightblue);
+  background-color: var(--hooker);
   border-radius: 0.125rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
@@ -230,7 +251,7 @@ li {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: 3px solid var(--border);
+  border: 3px solid var(--ash);
 }
 
 .grid-item {
@@ -238,7 +259,8 @@ li {
 }
 
 .desc {
-  background-color: var(--peach);
+  color: var(--charcoal);
+  background-color: var(--hooker);
   padding: 5px 5px;
   position: absolute;
   top: 5px;
@@ -277,13 +299,13 @@ li {
   font-size: 24px;
   color: var(--light);
   font-weight: bold;
-  background-color: var(--darkblue);
   text-align: center;
 }
 
 #footer {
   padding: 5px;
   margin-top: 10px;
+  background-color: var(--charcoal);
 }
 
 .icon {
@@ -297,27 +319,16 @@ li {
   margin-right: 2em;
 }
 
-#footer {
-  background-color: var(--darkblue);
-}
-
 #footer .icon {
-  background-color: var(--darkblue);
   margin-top: 20px;
 }
 
-#footer p {
-  background-color: var(--darkblue);
-  margin-top: 8px;
-}
-
+#footer p,
 #footer a {
-  text-decoration: none;
-  color: var(--orange-soda);
-}
-
-#react-icon {
-  background-color: var(--darkblue);
+  margin-top: 8px;
+  color: var(--cambridge);
+  /* removes underlines from links */
+  /* text-decoration: none; */
 }
 
 @media (min-width: 1200px) {
