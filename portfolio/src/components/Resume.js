@@ -37,7 +37,7 @@ const Resume = () => {
               <h4
                 className="code"
                 style={{
-                  justifyContent: "center",
+                  // justifyContent: "center",
                   textAlign: "center",
                 }}
               >
@@ -49,13 +49,13 @@ const Resume = () => {
           <div className="card-body">
             <div className="grid-container-skills">
               <div className="grid-item-skills">
-                <p className="p-about">Data Structures</p>
-              </div>
-              <div className="grid-item-skills">
-                <p className="p-about">UI/UX</p>
-              </div>
-              <div className="grid-item-skills">
                 <p className="p-about">Object Oriented Programming</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Process Improvement</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">Change Management</p>
               </div>
               <div className="grid-item-skills">
                 <p className="p-about">Analytics</p>
@@ -64,16 +64,16 @@ const Resume = () => {
                 <p className="p-about">Algorithms</p>
               </div>
               <div className="grid-item-skills">
+                <p className="p-about">Data Structures</p>
+              </div>
+              <div className="grid-item-skills">
+                <p className="p-about">UI/UX</p>
+              </div>
+              <div className="grid-item-skills">
                 <p className="p-about">Innovation</p>
               </div>
               <div className="grid-item-skills">
-                <p className="p-about">Process Improvement</p>
-              </div>
-              <div className="grid-item-skills">
                 <p className="p-about">Risk Management</p>
-              </div>
-              <div className="grid-item-skills">
-                <p className="p-about">Change Management</p>
               </div>
               <div className="grid-item-skills">
                 <p className="p-about">Aviation</p>
