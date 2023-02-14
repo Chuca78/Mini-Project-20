@@ -8,7 +8,11 @@ function App() {
   return (
     <div className="App">
       <PortfolioContainer />
-      <ParticlesBg type="circle" bg={true} className="particles"/>
+      <ParticlesBg
+        type="circle"
+        bg={true}
+        style={{ backgroundAttachment: "scroll" }}
+      />
       <Footer />
     </div>
   );
