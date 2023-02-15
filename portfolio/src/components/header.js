@@ -1,7 +1,6 @@
 import React from "react";
 import {
   HashRouter as Router,
-  Switch,
   Route,
   Redirect,
 } from "react-router-dom";
@@ -15,7 +14,6 @@ function Header() {
   return (
     <Router>
       <NavBar />
-      <Switch>
         <Route exact path="/">
           <Redirect to="/about" />
         </Route>
@@ -27,7 +25,6 @@ function Header() {
         <Route path="/resume">
           <Resume />
         </Route>
-      </Switch>
     </Router>
   );
 }
