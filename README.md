@@ -48,8 +48,6 @@ N/A
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![NPM](https://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
-![Heroku](https://img.shields.io/badge/Heroku-purple?style=for-the-badge&logo=heroku)
-![EXPRESS.js](https://img.shields.io/badge/express-JS-yellow?style=for-the-badge&logo=experts-exchange)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ## How to Contribute
