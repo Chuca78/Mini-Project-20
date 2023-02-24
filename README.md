@@ -19,20 +19,32 @@ This application is a portfolio created using my React skills. It is deployed to
 For installation of the dependencies, please run the following command in the terminal:
 
 ```
-
 npm i
-
 ```
 
 ## Usage
 
-To start the application, please type the following command in the terminal:
+To start the application click the following link: <br>
+https://chuca78.github.io/React-Portfolio/#/resume
+
+Alternately type the following command in the terminal:
 
 ```
-
 npm start
-
 ```
+### Application screenshots:
+
+About Me:
+![About Me](https://user-images.githubusercontent.com/97859682/221172921-ebf5f42c-6957-4aa5-9ae8-b4820fdc8c44.png)
+
+Portfolio:
+![Portfolio](https://user-images.githubusercontent.com/97859682/221172943-06149d4a-354b-4042-9739-7d23f798c92e.png)
+
+Contact Me:
+![Contact Me](https://user-images.githubusercontent.com/97859682/221172957-0b2c1eb7-9351-4879-90b8-ec15917d5e97.png)
+
+Resume:
+![Resume](https://user-images.githubusercontent.com/97859682/221172971-e6326817-8940-4482-b3ed-a02d1e60cfa6.png)
 
 ## Credits
 
