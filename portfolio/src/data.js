@@ -10,7 +10,7 @@ import RandomPassword from "./assets/images/Random-Password-Generator.png";
 import ReadMe from "./assets/images/READme_Generator.png";
 import Future from "./assets/images/Future.jpg";
 
-export default [
+const Portfolio = [
   {
     id: 1,
     name: "Foodle",
@@ -89,3 +89,5 @@ export default [
     deploy: "https://futureofcoding.org/",
   },
 ];
+
+export default Portfolio;
