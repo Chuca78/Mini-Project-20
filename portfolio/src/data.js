@@ -8,7 +8,7 @@ import Scheduler from "./assets/images/Work-Day-Scheduler.png";
 import NoteTaker from "./assets/images/Note-taker.png";
 import RandomPassword from "./assets/images/Random-Password-Generator.png";
 import ReadMe from "./assets/images/READme_Generator.png";
-import Future from "./assets/images/Future.jpg";
+import MERN from "./assets/images/MERN.png";
 
 const Portfolio = [
   {
@@ -83,10 +83,10 @@ const Portfolio = [
   },
   {
     id: 11,
-    name: "Future Projects",
-    image: Future,
-    github: "https://github.com/Chuca78",
-    deploy: "https://futureofcoding.org/",
+    name: "MERN project",
+    image: MERN,
+    github: "https://github.com/Chuca78/MERN-note-taker",
+    deploy: "https://polar-dusk-16089.herokuapp.com/",
   },
 ];
 
